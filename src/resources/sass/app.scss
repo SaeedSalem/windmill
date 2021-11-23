@@ -1,0 +1,40 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+
+// Variables
+@import 'variables';
+
+@import '../css/tailwind.output.css';
+
+// Bootstrap
+// @import '~bootstrap/scss/bootstrap';
+.rounded-tl-lg{
+    border-top-left-radius: .5rem;
+}
+.rounded-bl-lg{
+    border-bottom-left-radius: .5rem;
+}
+.text-right{
+    text-align: right;
+}
+
+.add-button{
+    margin-top: -40px;
+}
+
+.tab{
+  border-top: 1px solid #555;
+  border-right: 1px solid #555;
+  border-left: 1px solid #555;
+  border-top-left-radius: .5rem;
+  border-top-right-radius: .5rem;
+}
+
+.ml-0-15{
+  margin-left: .15rem;
+}
+
+.mr-0-15{
+  margin-right: .15rem;
+}
