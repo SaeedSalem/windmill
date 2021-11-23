@@ -2,6 +2,7 @@
     "name": "saeedsalem/windmill",
     "type": "dashboard",
     "require": {
+        "php": "^8.0",
         "inertiajs/inertia-laravel": "^0.4.4",
         "laravel/ui": "^3.3",
         "akaunting/laravel-setting": "dev-master",
